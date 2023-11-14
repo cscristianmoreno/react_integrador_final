@@ -1,0 +1,1 @@
+export const avatar: string = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJW7OPZpI8D6GwVxzMEOIasWqWkis7QsX4g&usqp=CAU";

@@ -1,0 +1,42 @@
+table {
+    /* display: block; */
+    /* table-layout: fixed; */
+    /* border-style: solid; */
+    /* height: 300px; */
+    /* border-style: solid; */
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    overflow-x: auto;
+    /* position: absolute; */
+    /* top: 0; */
+}
+
+th {
+    background: var(--header-color);
+    color: white;
+}
+
+td, th {
+    padding: 20px;
+    /* text-align: left; */
+    font-family: "Open Sans", sans-serif !important;
+}
+
+#email {
+    max-width: 150px;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+
+td:nth-last-child(1) {
+    max-width: 150px !important;
+    /* border-style: solid; */
+    /* background-color: red; */
+}
+
+tbody tr:nth-child(even) {
+    background-color: aliceblue;
+}

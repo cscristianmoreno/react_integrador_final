@@ -1,0 +1,26 @@
+.class_button {
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    min-width: 75px;
+}
+
+.primary {
+    background-color: #4c4ad1;
+}
+
+.accent {
+    background-color: #b8b8b8;
+}
+
+.accent2 {
+    background-color: #ffa806;
+}
+
+.warn {
+    background-color: #ff0000;
+}

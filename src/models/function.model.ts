@@ -1,0 +1,1 @@
+export type functionModelStruct<T, S> = (p?: T) => S;

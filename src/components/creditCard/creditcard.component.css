@@ -1,0 +1,22 @@
+.class_section_card_container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    /* height: 150px; */
+    border-radius: 10px;
+    background: linear-gradient(
+        45deg,
+        #382a77 40%,
+        var(--header-color)
+    );
+    padding: 30px;
+    color: white;
+    font-family: "Open Sans", sans-serif !important;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 25%);
+}
+
+.class_section_card_information {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}

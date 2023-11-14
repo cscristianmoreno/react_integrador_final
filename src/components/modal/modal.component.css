@@ -1,0 +1,36 @@
+.class_section_modal_container {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 30%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.class_section_modal {
+    padding: 20px;
+    border-radius: 5px;
+    /* color: white; */
+    background-color: white;
+    position: relative;
+}
+
+.class_section_modal button {
+    margin-top: 25px;
+    margin-left: 75%;
+}
+
+.class_section_modal_button_container {
+    color: var(--header-color);
+    cursor: pointer;
+}
+
+.class_section_modal_button_exit {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
